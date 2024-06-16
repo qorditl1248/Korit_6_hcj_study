@@ -1,90 +1,28 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-      div {
-        box-sizing: border-box;
-        border: 1px solid black;
-      }
-
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 1000px;
-      }
-
-      .sub-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 0px 20px;
-        padding: 20px;
-        width: 700px;
-        height: 900px;
-      }
-
-      .box1 {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 40%;
-      }
-
-      .box1 .p-sub-box {
-        width: 100px;
-        height: 100px;
-      }
-
-      .box1 .p1 {
-        justify-self: flex-end;
-      }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      border: 1px solid black;
+    }
+    .containers {
+      display: flex;
+      flex-direction: column;
+    }
 
 
-
-
-    </style>
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="sub-container">
-            <div class="box1">
-                <div class="p-sub-box">
-                    <div class="mini-box"></div>
-                    <div class="mini-box"></div>
-                </div>
-                <div class="p-sub-box p1">
-                    <div class="mini-box"></div>
-                    <div class="mini-box"></div>
-                </div>
-            </div>
-            <div class="box2">
-                <div class="mini-box"></div>
-            </div>
-        </div>
-        <div class="sub-container">
-            <div class="box3">
-                <div class="p-sub-box">
-                    <div class="mini-box"></div>
-                    <div class="mini-box"></div>
-                    <div class="mini-box"></div>
-                </div>
-                <div class="p-sub-box">
-                    <div class="mini-box"></div>
-                    <div class="mini-box"></div>
-                    <div class="mini-box"></div>
-                </div>
-            </div>
-            <div class="box4">
-                <div class="mini-box"></div>
-                <div class="mini-box"></div>
-                <div class="mini-box"></div>
-            </div>
-        </div>
+  <div class="containers">
+    <div class="container1">
+      <div class="box1"></div>
+      <div class="box2"></div>
     </div>
+    <div class="container2"></div>
+  </div>
 </body>
 </html>

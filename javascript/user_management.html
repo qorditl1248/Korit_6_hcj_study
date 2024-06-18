@@ -19,10 +19,16 @@
 </head>
 <body>
   <div>
+    
+    <input type="text" class="name-input"
+    placeholder="name" name="name"
+    onkeydown="handleUserInputKeyDown(event)"
+    />
     <input type="text" class="username-input" 
     placeholder="username" name="username"
     onkeydown="handleUserInputKeyDown(event)"
     />
+
     <input type="password" class="userpassword-input"
     placeholder="password" name="password"
     onkeydown="handleUserInputKeyDown(event)"
@@ -31,13 +37,17 @@
   <table>
     <thead>
       <tr>
+        <th></th>
         <th>번호</th>
+        <th>id</th>
+        <th>성명</th>
         <th>사용자명</th>
         <th>비밀번호</th>
+        <th>삭제</th>
       </tr>
     </thead>
     <tbody class="user-table-body">
-      
+      <!-- java스크립트로 넣는자리  -->
     </tbody>
   </table>
   <script src="./user_management.js"></script>
